@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
+import './App.scss';
 
-import Display from './components/Display.js';
-import Dashboard from './components/Dashboard.js';
+import Display from './components/Display/Display.js';
+import Dashboard from './components/Dashboard/Dashboard.js';
 
 const App = () => {
 
@@ -62,7 +62,10 @@ const App = () => {
   
   return (
     <div>
-      <h1>Scorekeeper</h1>
+      <div className='title'>
+        <h1>Scorekeeper</h1>
+      </div>
+      
       <div className="score-wrapper">
         <div className="display">
           <Display strikes={strikes} 

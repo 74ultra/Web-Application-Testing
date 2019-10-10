@@ -1,0 +1,34 @@
+.display-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .at-bat {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        background: green;
+        border: 1px lightgray solid;
+
+        .category {
+            color: white;
+            padding-right: 10px;
+
+        }
+        .status-wrapper {
+            width: 30px;
+            height: 50px;
+            margin: auto 0;
+            border: 1px lightgray solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: black;
+
+            .status {
+                color: red;
+            }
+
+        }
+    }
+}
