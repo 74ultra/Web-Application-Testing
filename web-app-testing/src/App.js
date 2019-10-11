@@ -61,7 +61,7 @@ const App = () => {
   }
   
   return (
-    <div>
+    <div className='main-wrapper'>
       <div className='title'>
         <h1>Scoreboard</h1>
       </div>
