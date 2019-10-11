@@ -1,0 +1,16 @@
+.btn-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 50px;
+    margin: 20px 0;
+
+    .btn {
+        height: 30px;
+        width: 80px;
+        background: green;
+        color: white;
+        border: 1px lightgray solid;
+    }
+}
